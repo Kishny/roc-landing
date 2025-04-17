@@ -18,7 +18,7 @@ export default function App({ Component, pageProps }) {
     <>
       {loading && (
         <div
-          className="fixed inset-0 flex items-center justify-center z-50"
+          className="fixed inset-0 flex items-center justify-center z-50 overfflow-x-hidden"
           style={{
             background:
               "linear-gradient(90deg, #007a3d 0%, #ce1126 50%, #fcd116 100%)",
