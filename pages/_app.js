@@ -17,12 +17,18 @@ export default function App({ Component, pageProps }) {
   return (
     <>
       {loading && (
-        <div className="fixed inset-0 bg-blue-600 z-[9999] flex items-center justify-center animate-fadeOut">
-          <div className="w-50 h-50 rounded-full bg-white flex items-center justify-center animate-scalePop shadow-xl">
+        <div
+          className="fixed inset-0 flex items-center justify-center z-50"
+          style={{
+            background:
+              "linear-gradient(90deg, #007a3d 0%, #ce1126 50%, #fcd116 100%)",
+          }}
+        >
+          <div className="w-70 h-70 rounded-full bg-white flex items-center justify-center animate-scalePop shadow-xl">
             <img
               src="/img/logo-roc.png"
               alt="ROC Logo"
-              className="w-40 h-40 object-contain"
+              className="w-70 h-70 object-contain rounded-full"
             />
           </div>
         </div>
