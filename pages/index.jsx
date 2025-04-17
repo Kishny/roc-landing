@@ -5,6 +5,8 @@ export default function Home() {
     <>
       <Head>
         <title>ROC Cameroun - Landing Page</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
         <meta
           name="description"
           content="Landing page pour le programme abcdémocratie et la formation des scrutateurs citoyens au Cameroun."
